@@ -1,0 +1,14 @@
+In line number 8 of your output:
+The output should be:
+| Hubert Blaine                  | 4098 7654 2345 7896 | 100 | 12/24 |
+                                        ^
+But your output is: 
+| Hubert Blaine                  | 4098 07654 2345 7896| 100 | 12/24 |
+                                        ^
+
+Unmatched character details:
+The character in column 41 is supposed to be:
+  [7] ASCII code(55)
+but you printed
+  [0] ASCII code(48)
+
