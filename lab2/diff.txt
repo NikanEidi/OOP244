@@ -1,0 +1,14 @@
+In line number 69 of your output:
+The output should be:
+Name: John
+         ^
+But your output is: 
+Name: Johm
+         ^
+
+Unmatched character details:
+The character in column 10 is supposed to be:
+  [n] ASCII code(110)
+but you printed
+  [m] ASCII code(109)
+
