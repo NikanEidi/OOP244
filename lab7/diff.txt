@@ -1,0 +1,14 @@
+In line number 11 of your output:
+The output should be:
+> John Doe,IPC144 - Introduction to Programming Using C, 3, 12312, 65432
+                                                                        ^
+But your output is: 
+> John Doe,IPC144 - Introduction to Programming Using C, 3, 12312, 65432<ENTER>
+                                                                        ^
+
+Unmatched character details:
+The character in column 73 is supposed to be:
+  [Empty Line] ASCII code(0)
+but you printed
+  [<] ASCII code(60)
+
